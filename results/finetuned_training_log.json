@@ -1,0 +1,133 @@
+{
+  "strategy": "finetune",
+  "config": {
+    "iterations": 30,
+    "batch_size": 8,
+    "dropout": 0.3,
+    "patience": 5,
+    "learn_rate": 0.001,
+    "seed": 42
+  },
+  "history": [
+    {
+      "iteration": 1,
+      "loss": 17675.966796875,
+      "precision": 0.7987,
+      "recall": 0.7659,
+      "f1": 0.782,
+      "best": true
+    },
+    {
+      "iteration": 2,
+      "loss": 11265.83203125,
+      "precision": 0.8212,
+      "recall": 0.7999,
+      "f1": 0.8104,
+      "best": true
+    },
+    {
+      "iteration": 3,
+      "loss": 9408.5556640625,
+      "precision": 0.8291,
+      "recall": 0.8239,
+      "f1": 0.8265,
+      "best": true
+    },
+    {
+      "iteration": 4,
+      "loss": 8195.451171875,
+      "precision": 0.8385,
+      "recall": 0.8294,
+      "f1": 0.8339,
+      "best": true
+    },
+    {
+      "iteration": 5,
+      "loss": 7194.86181640625,
+      "precision": 0.8446,
+      "recall": 0.8328,
+      "f1": 0.8387,
+      "best": true
+    },
+    {
+      "iteration": 6,
+      "loss": 6595.59033203125,
+      "precision": 0.8543,
+      "recall": 0.8297,
+      "f1": 0.8418,
+      "best": true
+    },
+    {
+      "iteration": 7,
+      "loss": 5994.5556640625,
+      "precision": 0.8403,
+      "recall": 0.8441,
+      "f1": 0.8422,
+      "best": true
+    },
+    {
+      "iteration": 8,
+      "loss": 5497.84033203125,
+      "precision": 0.8508,
+      "recall": 0.838,
+      "f1": 0.8443,
+      "best": true
+    },
+    {
+      "iteration": 9,
+      "loss": 5254.92236328125,
+      "precision": 0.8479,
+      "recall": 0.8386,
+      "f1": 0.8432,
+      "best": false
+    },
+    {
+      "iteration": 10,
+      "loss": 4841.99853515625,
+      "precision": 0.8562,
+      "recall": 0.8433,
+      "f1": 0.8497,
+      "best": true
+    },
+    {
+      "iteration": 11,
+      "loss": 4441.9111328125,
+      "precision": 0.8446,
+      "recall": 0.8401,
+      "f1": 0.8424,
+      "best": false
+    },
+    {
+      "iteration": 12,
+      "loss": 4356.59326171875,
+      "precision": 0.8408,
+      "recall": 0.8537,
+      "f1": 0.8472,
+      "best": false
+    },
+    {
+      "iteration": 13,
+      "loss": 4117.29345703125,
+      "precision": 0.8523,
+      "recall": 0.8421,
+      "f1": 0.8472,
+      "best": false
+    },
+    {
+      "iteration": 14,
+      "loss": 3858.83251953125,
+      "precision": 0.8417,
+      "recall": 0.8439,
+      "f1": 0.8428,
+      "best": false
+    },
+    {
+      "iteration": 15,
+      "loss": 3618.718505859375,
+      "precision": 0.8482,
+      "recall": 0.8449,
+      "f1": 0.8465,
+      "best": false
+    }
+  ]
+}

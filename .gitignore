@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# spaCy model (too large for GitHub)
+results/finetuned_model/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

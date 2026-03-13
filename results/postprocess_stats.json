@@ -1,0 +1,24 @@
+{
+  "before": {
+    "overall_p": 0.854,
+    "overall_r": 0.85,
+    "overall_f1": 0.852,
+    "date_p": 0.882,
+    "date_r": 0.913,
+    "date_f1": 0.897
+  },
+  "after": {
+    "overall_p": 0.852,
+    "overall_r": 0.851,
+    "overall_f1": 0.851,
+    "date_p": 0.867,
+    "date_r": 0.916,
+    "date_f1": 0.891
+  },
+  "gain": {
+    "overall_f1": -0.001,
+    "date_f1": -0.006
+  },
+  "date_additions": 19,
+  "examples_improved": 14
+}

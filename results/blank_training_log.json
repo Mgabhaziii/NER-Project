@@ -1,0 +1,213 @@
+{
+  "strategy": "blank",
+  "config": {
+    "iterations": 30,
+    "batch_size": 8,
+    "dropout": 0.3,
+    "patience": 5,
+    "learn_rate": 0.001,
+    "seed": 42
+  },
+  "history": [
+    {
+      "iteration": 1,
+      "loss": 34355.2265625,
+      "precision": 0.5883,
+      "recall": 0.5946,
+      "f1": 0.5914,
+      "best": true
+    },
+    {
+      "iteration": 2,
+      "loss": 18265.3046875,
+      "precision": 0.7391,
+      "recall": 0.6957,
+      "f1": 0.7167,
+      "best": true
+    },
+    {
+      "iteration": 3,
+      "loss": 14794.068359375,
+      "precision": 0.7659,
+      "recall": 0.7354,
+      "f1": 0.7503,
+      "best": true
+    },
+    {
+      "iteration": 4,
+      "loss": 12683.4697265625,
+      "precision": 0.8056,
+      "recall": 0.7429,
+      "f1": 0.773,
+      "best": true
+    },
+    {
+      "iteration": 5,
+      "loss": 11410.638671875,
+      "precision": 0.7874,
+      "recall": 0.781,
+      "f1": 0.7842,
+      "best": true
+    },
+    {
+      "iteration": 6,
+      "loss": 10581.8388671875,
+      "precision": 0.8077,
+      "recall": 0.7863,
+      "f1": 0.7968,
+      "best": true
+    },
+    {
+      "iteration": 7,
+      "loss": 9599.419921875,
+      "precision": 0.8059,
+      "recall": 0.7911,
+      "f1": 0.7984,
+      "best": true
+    },
+    {
+      "iteration": 8,
+      "loss": 9010.533203125,
+      "precision": 0.8216,
+      "recall": 0.7972,
+      "f1": 0.8092,
+      "best": true
+    },
+    {
+      "iteration": 9,
+      "loss": 8462.40625,
+      "precision": 0.7934,
+      "recall": 0.8148,
+      "f1": 0.8039,
+      "best": false
+    },
+    {
+      "iteration": 10,
+      "loss": 7956.5654296875,
+      "precision": 0.8043,
+      "recall": 0.8096,
+      "f1": 0.807,
+      "best": false
+    },
+    {
+      "iteration": 11,
+      "loss": 7625.548828125,
+      "precision": 0.8121,
+      "recall": 0.8108,
+      "f1": 0.8115,
+      "best": true
+    },
+    {
+      "iteration": 12,
+      "loss": 7079.39990234375,
+      "precision": 0.8078,
+      "recall": 0.8188,
+      "f1": 0.8132,
+      "best": true
+    },
+    {
+      "iteration": 13,
+      "loss": 6877.29736328125,
+      "precision": 0.8166,
+      "recall": 0.8146,
+      "f1": 0.8156,
+      "best": true
+    },
+    {
+      "iteration": 14,
+      "loss": 6487.8076171875,
+      "precision": 0.8065,
+      "recall": 0.8244,
+      "f1": 0.8153,
+      "best": false
+    },
+    {
+      "iteration": 15,
+      "loss": 6348.1953125,
+      "precision": 0.8168,
+      "recall": 0.8154,
+      "f1": 0.8161,
+      "best": true
+    },
+    {
+      "iteration": 16,
+      "loss": 6057.224609375,
+      "precision": 0.812,
+      "recall": 0.8181,
+      "f1": 0.8151,
+      "best": false
+    },
+    {
+      "iteration": 17,
+      "loss": 5862.560546875,
+      "precision": 0.8177,
+      "recall": 0.8174,
+      "f1": 0.8176,
+      "best": true
+    },
+    {
+      "iteration": 18,
+      "loss": 5731.9150390625,
+      "precision": 0.8215,
+      "recall": 0.8236,
+      "f1": 0.8225,
+      "best": true
+    },
+    {
+      "iteration": 19,
+      "loss": 5518.77001953125,
+      "precision": 0.8176,
+      "recall": 0.8255,
+      "f1": 0.8215,
+      "best": false
+    },
+    {
+      "iteration": 20,
+      "loss": 5240.00927734375,
+      "precision": 0.8411,
+      "recall": 0.8149,
+      "f1": 0.8278,
+      "best": true
+    },
+    {
+      "iteration": 21,
+      "loss": 5172.02490234375,
+      "precision": 0.8212,
+      "recall": 0.825,
+      "f1": 0.8231,
+      "best": false
+    },
+    {
+      "iteration": 22,
+      "loss": 5090.3095703125,
+      "precision": 0.8338,
+      "recall": 0.8154,
+      "f1": 0.8245,
+      "best": false
+    },
+    {
+      "iteration": 23,
+      "loss": 4914.876953125,
+      "precision": 0.8,
+      "recall": 0.8302,
+      "f1": 0.8148,
+      "best": false
+    },
+    {
+      "iteration": 24,
+      "loss": 4849.84619140625,
+      "precision": 0.8298,
+      "recall": 0.8116,
+      "f1": 0.8206,
+      "best": false
+    },
+    {
+      "iteration": 25,
+      "loss": 4679.068359375,
+      "precision": 0.8264,
+      "recall": 0.8236,
+      "f1": 0.825,
+      "best": false
+    }
+  ]
+}

@@ -106,13 +106,13 @@ Using augmented training data (after active learning):
 python pipeline.py --skip-annotate --lr-schedule --train-file data/augmented_train.json
 ```
 
-### 4. Compare training strategies (LO2)
+### 4. Compare training strategies 
 
 ```bash
 python experiments/experiment_runner.py
 ```
 
-### 5. Analyse errors (LO1)
+### 5. Analyse errors 
 
 ```bash
 python experiments/error_analysis.py
@@ -172,10 +172,6 @@ Patterns covered: fiscal quarters (`Q3 2024`), named quarters (`the third quarte
 fiscal years (`fiscal year 2022`, `FY2023`), decade references (`the 1990s`, `early 2000s`),
 date ranges, and anchored seasonal references.
 
-> **Note:** Initial rules decreased F1 slightly by adding false positives. Patterns were
-> tightened to require explicit anchors (year, numeric count). Bare seasonal words and
-> vague relative phrases were removed.
-
 ### #6 — Learning Rate Scheduling (`src/train.py --lr-schedule`)
 
 A two-phase schedule replaces the fixed learning rate:
@@ -218,11 +214,4 @@ Evaluation is run against:
 
 ---
 
-## Learning Outcomes Coverage
 
-| LO | Where addressed |
-|---|---|
-| LO1 — Linguistic sensitivity | `experiments/error_analysis.py`, Section 7 of report |
-| LO2 — Compare ML techniques | `experiments/experiment_runner.py`, Section 5 of report |
-| LO3 — Experimental methodology | `src/evaluate.py`, `tools/verify_labels.py`, Sections 3–4 of report |
-| LO4 — Implement NLP solution | All `src/` and `tools/` modules, `pipeline.py` |

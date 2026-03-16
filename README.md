@@ -35,7 +35,7 @@ NER_Project/
 │   ├── verification_stats.json        <- annotation error rate stats
 │   └── active_learning_candidates.json <- 50 most uncertain training examples
 │
-├── src/                               <- modular pipeline components (LO4)
+├── src/                               <- modular pipeline components 
 │   ├── annotate.py                    <- auto-label raw text using en_core_web_trf
 │   ├── clean.py                       <- validate spans, split train/val
 │   ├── train.py                       <- fine-tune with early stopping + LR scheduling
@@ -47,9 +47,9 @@ NER_Project/
 │   ├── verify_labels.py               <- interactive human annotation reviewer
 │   └── active_learning.py             <- uncertainty sampling for efficient labelling
 │
-├── experiments/                       <- experimental methodology (LO2, LO3)
+├── experiments/                       <- experimental methodology 
 │   ├── experiment_runner.py           <- compare 3 training strategies
-│   └── error_analysis.py             <- linguistic error analysis (LO1)
+│   └── error_analysis.py             <- linguistic error analysis 
 │
 ├── results/                           <- auto-created, all outputs saved here
 │   ├── finetuned_model/               <- best trained model checkpoint
@@ -61,7 +61,7 @@ NER_Project/
 |
 ├── pipeline.py                        <- run everything end to end
 ├── README.md
-└── report.md                          <- written analysis covering all LOs
+└── report.md                          <- written analysis covering all 
 ```
 
 ---
